@@ -1,0 +1,167 @@
+body {
+    background-color:#20232a;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    
+}
+#title{
+    background-color:#FFDAAF ;}
+
+    .bss{
+        background-color: #FFDAAF;
+    }
+
+  .container-fluid {
+      padding: 3% 4%;
+  }
+.navbar-brand {
+        font-family: "Ubuntu";
+        font-size: 30px;
+        font-weight: bold;
+        color: #20232a;
+            }
+
+    .navbar {
+        padding: 0 0 4.5rem;
+    }
+
+    .nav-item {
+        padding: 0 18px;
+        font-weight: bold;
+    }
+
+    .nav-link {
+        color: #20232a;
+        font-size: 1.2rem;
+        font-family: "Montserrat-Light";
+    }
+
+.container {
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.40);
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    max-width: 600px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#city-input{
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    width: 60%;
+    font-family: initial;
+    font-weight: bold;
+}
+
+#submit {
+background-color: #007bff ;
+color: #fff;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+font-size: 18px;
+cursor: pointer;
+outline: none;
+transition: background-color .3s ease;
+}
+ 
+#submit:hover{
+background-color: #0062cc;
+}
+
+ .icon img{
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+
+ }
+
+ .temperature{
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0;
+
+ }
+ .description{
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: inherit;
+ }
+ .details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+
+ .details > div{       
+     padding: 20px;
+     background-color: #f1f1f1;
+     margin: 10px;
+     border-radius: 5px;
+     flex: 1;
+     text-align: center;
+     min-height:  45px;
+     font-weight: bold;
+    }
+
+        footer {
+            background-color: #20232a;
+             
+            text-align: center;
+            
+            padding: 7% 10%
+            
+        }
+
+               .fMenuTitle {
+                    text-align: center;
+                    font-size: 26px;
+                    color: white;
+                }
+
+                                .fIcon {
+                                    width: 20px;
+                                    height: 20px;
+                                    margin-right: 10px;
+                                    color: white;
+                                    cursor: pointer;
+                                }
+    
+        .so {
+            margin: 20px 10px;
+        }
+    
+        .copy{
+            margin-top: 100px;
+            color: white;
+        }
+
+    @media (max-width: 1028px){
+        #title{
+            text-align: center;
+        }
+
+        form {
+            flex-direction: column;
+        }
+
+        #city-input{
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    }
